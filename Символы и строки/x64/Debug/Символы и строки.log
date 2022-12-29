@@ -1,0 +1,5 @@
+﻿  Символы и строки.cpp
+C:\Users\FL\source\repos\Символы и строки\Символы и строки.cpp(13,34): error C2664: "size_t strlen(const char *)": невозможно преобразовать аргумент 1 из "char" в "const char *"
+C:\Users\FL\source\repos\Символы и строки\Символы и строки.cpp(13,33): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(215,16): message : см. объявление "strlen"
+C:\Users\FL\source\repos\Символы и строки\Символы и строки.cpp(15,16): error C2109: для индекса требуется массив или указатель
