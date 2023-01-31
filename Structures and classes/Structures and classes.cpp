@@ -1,23 +1,19 @@
 ﻿#include <iostream>
 #include <stdio.h>using namespace std;
 using namespace std;
-/*
-Линейное уравнение y=Ax+B. Поле first - дробное число, коэффициент А; поле second – дробное число, коэффициент В.
-Реализовать метод function() – вычисление для заданного x значения функции y.
-*/
 
 struct solution {
 	double first;
 	double second;
 
 	void read() {
-		cout << "A:";
+		cout << "a";
 		cin >> first;
-		cout << "B:";
+		cout << "b";
 		cin >> second;
 	}
 	void display() {
-		cout << "A=" << first << ";" << "B=" << second << endl;
+		cout << "a=" << first << ";" << "b=" << second << endl;
 	}
 
 	void function(int x) {
@@ -29,7 +25,7 @@ int main() {
 	setlocale(LC_ALL, "Russian");
 	solution one;
 	int a;
-	cout << "Вставьте X:";
+	cout << "Вставьте x";
 	cin >> a;
 	one.read();
 	one.display();
